@@ -5,7 +5,7 @@
 }
 
 body {
-  margin: 80px auto;
+  margin: 100px auto;
 }
 
 h1,
@@ -71,6 +71,9 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
+.gallery-link:hover {
+  color: rgb(253, 209, 98);
+}
 .gallery-text {
   text-align: left;
 }
@@ -99,4 +102,23 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+@media (max-width: 576px) {
+  body {
+    margin: 70px auto;
+  }
+  h1 {
+    font-size: 38px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+  .gallery-head {
+    text-align: center;
+  }
+  .gallery-link {
+    display: block;
+    text-align: center;
+  }
 }
